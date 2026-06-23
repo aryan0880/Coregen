@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coregen AI - The autonomous AI agent platform to automate your development lifecycle.">
+    <title>Coregen AI - Code Less. Build Universes.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Sticky Glassmorphic Navbar -->
+    <header id="navbar">
+        <nav class="nav-container">
+            <a href="#" class="logo" id="nav-logo">
+                <img src="images/Logo.jpg" alt="Coregen AI Logo " class="logo-img">
+                <span>Coregen AI</span>
+            </a>
+            
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#launch" class="cta-button">Try Coregen</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="badge">
+            <span class="badge-dot"></span>
+            <span>Coregen 2.0 is live</span>
+        </div>
+        
+        <h1>Your AI Engineer That <span>Codes,Tests & Deploys</span></h1>
+        
+        <p class="hero-subtitle">
+            Meet Coregen AI. The autonomous developer agent that writes, tests, debugs, and deploys full-stack features directly to your codebase.
+        </p>
+        
+        <div class="hero-actions">
+            <a href="#start" class="btn-primary">Start Building Free</a>
+            <a href="#demo" class="btn-secondary">Watch Demo <i class="fas fa-play" style="font-size: 0.8rem; margin-left: 0.5rem; color: var(--accent-cyan);"></i></a>
+        </div>
+
+        <!-- Mock Dashboard Preview -->
+        <div class="dashboard-preview">
+            <div class="dashboard-header">
+                <div class="dots">
+                    <span class="dot dot-red"></span>
+                    <span class="dot dot-yellow"></span>
+                    <span class="dot dot-green"></span>
+                </div>
+                <div class="dashboard-title">coregen-agent-v2.sh</div>
+                <div style="width: 30px;"></div> <!-- Spacer -->
+            </div>
+            <div class="dashboard-body">
+                <aside class="sidebar">
+                    <div class="sidebar-item active">
+                        <i class="fas fa-terminal"></i> Terminal
+                    </div>
+                    <div class="sidebar-item">
+                        <i class="fas fa-network-wired"></i> Agent Graph
+                    </div>
+                    <div class="sidebar-item">
+                        <i class="fas fa-box"></i> Deployments
+                    </div>
+                    <div class="sidebar-item">
+                        <i class="fas fa-cog"></i> Settings
+                    </div>
+                </aside>
+                <main class="main-view">
+                    <div class="status-cards">
+                        <div class="status-card">
+                            <h4>Agent Status</h4>
+                            <p>Synthesizing...</p>
+                            <span>98% Accuracy Index</span>
+                        </div>
+                        <div class="status-card">
+                            <h4>Tasks Executed</h4>
+                            <p>1,482</p>
+                            <span>+432 this hour</span>
+                        </div>
+                    </div>
+                    <div class="code-container">
+                        <span class="comment">// Instantiating Coregen agent pipeline</span><br>
+                        <span class="keyword">const</span> agent = <span class="keyword">await</span> Coregen.init({<br>
+                        &nbsp;&nbsp;projectId: <span class="string">"coregen-prod-01"</span>,<br>
+                        &nbsp;&nbsp;capabilities: [<span class="string">"coder"</span>, <span class="string">"tester"</span>, <span class="string">"deployer"</span>]<br>
+                        });<br><br>
+                        <span class="comment">// Executing autonomous task...</span><br>
+                        <span class="keyword">await</span> agent.execute(<span class="string">"Build a clean glassmorphic navbar and hero"</span>);<br>
+                        <span class="comment">>> Task completed successfully in 842ms.</span>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile Nav Script Toggle -->
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = menuToggle.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.className = 'fas fa-times';
+            } else {
+                icon.className = 'fas fa-bars';
+            }
+        });
+    </script>
+</body>
+</html>
