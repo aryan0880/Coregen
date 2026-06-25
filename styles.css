@@ -36,7 +36,7 @@ body {
 }
 
 .logo-img {
-    width: 200px;
+    width: 180px;
     height: auto;
     object-fit: contain;
     mix-blend-mode: screen;
@@ -80,10 +80,8 @@ header {
 }
 
 .ai {
-    color: purple;
-    text-shadow: 0 0 8px rgba(0, 255, 255, .5);
+    color: #a855f7;
     font-weight: 800;
-
 }
 
 .logo-icon {
@@ -844,11 +842,21 @@ footer {
     margin-top: 0.5rem;
 }
 
-/* Text-based footer logo */
+/* Footer logo — image + text side by side */
 .footer-logo-link {
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
     margin-bottom: 0.25rem;
+}
+
+.footer-logo-link .logo-img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    mix-blend-mode: screen;
+    filter: brightness(2) contrast(5);
 }
 
 .footer-logo {
