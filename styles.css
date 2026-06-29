@@ -584,6 +584,8 @@ header {
         font-size: 1.4rem;
         margin-left: 0;
         margin-right: 0.5rem;
+        position:relative;
+        z-index: 10000;
     }
 
     .nav-links li {
