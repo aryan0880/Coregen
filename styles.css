@@ -123,30 +123,18 @@ header {
     font-weight: 500;
     transition: var(--transition);
     position: relative;
-    padding: 0.25rem 0;
-}
-.nav-links a{
-    color: var(--text-secondary);
-    text-decoration: none;
-    font-size: 0.95rem;
-    font-weight: 500;
-    position: relative;
-
     padding: 10px 16px;
     border-radius: 30px;
+     transition: all 0.3s ease;
 
-    transition: all 0.3s ease;
 }
 
 /* Hover effect */
 .nav-links a:hover{
+
     color: white;
-
     background: rgba(168,85,247,0.15);
-
-    box-shadow:
-        0 0 15px rgba(168,85,247,0.35);
-
+    box-shadow:0 0 15px rgba(168,85,247,0.35);
     transform: translateY(-2px);
 }
 
@@ -179,7 +167,6 @@ header {
     padding: 0.25rem 0.5rem;
     flex-shrink: 0;
 }
-
 
 /* Hero Section */
 .hero {
@@ -334,15 +321,15 @@ header {
 }
 
 .dot-red {
-    background: #ef4444;
+    background: red;
 }
 
 .dot-yellow {
-    background: #eab308;
+    background: yellow;
 }
 
 .dot-green {
-    background: #22c55e;
+    background: green;
 }
 
 .dashboard-title {
@@ -450,13 +437,11 @@ header {
 }
 
 @keyframes pulse {
-
     0%,
     100% {
         opacity: 1;
         transform: scale(1);
     }
-
     50% {
         opacity: 0.85;
         transform: scale(0.98);
@@ -480,7 +465,7 @@ header {
     font-size: clamp(2rem, 3.5vw, 3rem);
     font-weight: 700;
     margin-bottom: 1rem;
-    background: linear-gradient(135deg, #ffffff, #e2e8f0);
+    background: linear-gradient(135deg, white);
     -webkit-background-clip: text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
@@ -909,10 +894,10 @@ footer {
 }
 
 .footer-newsletter input {
-    background: #111;
+    background:black;
     border: 1px solid #222;
     border-right: none;
-    color: #fff;
+    color: white;
     padding: 0.5rem 1rem;
     border-radius: 6px 0 0 6px;
     outline: none;
@@ -927,7 +912,7 @@ footer {
 
 .footer-newsletter button {
     background: #a855f7;
-    color: #fff;
+    color: white;
     padding: 0.5rem 1rem;
     border-radius: 0 6px 6px 0;
     border: none;
@@ -1018,7 +1003,7 @@ footer {
     color: #444;
 }
 
-/* Final responsive overrides — must be last so they win */
+/* Final responsive overrides*/
 @media (max-width: 768px) {
     .pricing-grid {
         grid-template-columns: 1fr;

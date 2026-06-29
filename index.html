@@ -10,15 +10,16 @@
 </head>
 <body>
 
-    <!-- Sticky Glassmorphic Navbar -->
-    <header id="navbar">
+    /* Sticky Glassmorphic Navbar */
+
+        <header id="navbar">
         <nav class="nav-container">
             <a href="#" class="logo" id="nav-logo">
-                <img src="images/Logo.png" alt="Coregen AI" class="logo-img">
+            <img src="images/Logo.png" alt="Coregen AI" class="logo-img">
             </a>
             
             <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu">
-                <i class="fas fa-bars"></i>
+                <i class="☰"></i>
             </button>
             <ul class="nav-links" id="nav-links">
                 <li><a href="#home" class="active">Home</a></li>
@@ -30,7 +31,8 @@
         </nav>
     </header>
 
-    // Hero Section//
+    // hero section //
+    
     <section class="hero" id="home">
         <div class="badge">
             <span class="badge-dot"></span>
@@ -57,7 +59,7 @@
                     <span class="dot dot-green"></span>
                 </div>
                 <div class="dashboard-title">coregen-agent-v2.sh</div>
-                <div style="width: 30px;"></div> <!-- Spacer -->
+                <div style="width: 30px;"></div>                        <!-- Space -->
             </div>
             <div class="dashboard-body">
                 <aside class="sidebar">
@@ -216,7 +218,6 @@
                 <p>Built for engineers who move fast.</p>
                 <div class="footer-socials">
                     <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" aria-label="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
                     <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
                 <p class="footer-newsletter-label">Get product updates</p>
@@ -264,9 +265,9 @@
             navLinks.classList.toggle('active');
             const icon = menuToggle.querySelector('i');
             if (navLinks.classList.contains('active')) {
-                icon.className = 'fas fa-times';
+                icon.innerHTML = "✕";
             } else {
-                icon.className = 'fas fa-bars';
+                icon.innerHTML = "☰";
             }
         });
     </script>

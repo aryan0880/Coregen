@@ -3,9 +3,9 @@
 > **Internship Project** | Frontend Web Development  
 > Built as part of a frontend development internship to design and implement a fully responsive, production-ready SaaS landing page.
 
----
 
-## 📌 Project Overview
+
+📌 Project Overview
 
 **Coregen AI** is a fictional autonomous AI developer agent platform. This project involved designing and building a complete marketing landing page from scratch using only HTML and CSS — no frameworks, no libraries, no shortcuts.
 
@@ -13,7 +13,7 @@ The goal was to practice real-world frontend skills: layout design, responsive b
 
 ---
 
-## 🎯 Objectives
+ 🎯 Objectives
 
 - Build a pixel-perfect, responsive landing page using semantic HTML5 and vanilla CSS
 - Apply modern UI/UX design patterns (glassmorphism, micro-animations, gradient typography)
@@ -21,7 +21,7 @@ The goal was to practice real-world frontend skills: layout design, responsive b
 - Structure reusable component sections (Hero, Features, Pricing, Testimonials, Footer)
 - Follow SEO best practices with proper meta tags and heading hierarchy
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -38,7 +38,7 @@ The goal was to practice real-world frontend skills: layout design, responsive b
 
 ---
 
-## 📁 Project Structure
+ 📁 Project Structure
 
 ```
 Coregen/
@@ -51,34 +51,34 @@ Coregen/
 
 ---
 
-## 🧩 Sections Built
+ 🧩 Sections Built
 
-### 1. 🔝 Sticky Glassmorphic Navbar
+1. 🔝 Sticky Glassmorphic Navbar
 - Fixed positioning with `backdrop-filter: blur()`
 - Animated underline hover effect on nav links
 - Mobile-responsive hamburger menu with JS toggle
 
-### 2. 🚀 Hero Section
+ 2. 🚀 Hero Section
 - Gradient headline with `background-clip: text`
 - Animated badge with pulsing dot
 - CTA buttons (Primary + Secondary)
 - Mock terminal dashboard preview card
 
-### 3. ⚡ Features Section
+ 3. ⚡ Features Section
 - 2-column responsive grid layout
 - Feature cards with border-left accent on hover
 - Icon + heading + description pattern
 
-### 4. 💰 Pricing Section
+ 4. 💰 Pricing Section
 - 3-tier pricing cards (Starter / Pro / Team)
 - Featured card with purple border highlight
 - Checkmark list items using CSS `::before`
 
-### 5. 💬 Testimonials Section
+ 5. 💬 Testimonials Section
 - 3-column responsive grid
 - Quote cards with author attribution
 
-### 6. 🦶 Footer
+ 6. 🦶 Footer
 - Text-based branded logo (`CoreGen AI`)
 - Social icons (GitHub, X, LinkedIn) with hover animation
 - Newsletter email signup form
@@ -89,7 +89,7 @@ Coregen/
 
 ---
 
-## ✨ Key Design Decisions
+✨ Key Design Decisions
 
 | Decision | Rationale |
 |---|---|
@@ -102,7 +102,7 @@ Coregen/
 
 ---
 
-## 📱 Responsive Breakpoints
+ 📱 Responsive Breakpoints
 
 | Breakpoint | Layout Change |
 |---|---|
@@ -112,7 +112,7 @@ Coregen/
 
 ---
 
-## 🚀 How to Run
+ 🚀 How to Run
 
 This project has **zero build steps** — just open in a browser:
 
@@ -124,9 +124,8 @@ This project has **zero build steps** — just open in a browser:
 # Install the "Live Server" extension → Right-click index.html → Open with Live Server
 ```
 
----
 
-## 🧠 What I Learned
+🧠 What I Learned
 
 - How to build a complete UI design system using only CSS custom properties
 - Implementing glassmorphism and `backdrop-filter` correctly across browsers
@@ -135,20 +134,11 @@ This project has **zero build steps** — just open in a browser:
 - Structuring large CSS files by section/component for maintainability
 - SEO fundamentals: meta descriptions, semantic heading hierarchy, `aria-label` usage
 
----
 
-## 🔮 Potential Future Improvements
+ 
 
-- [ ] Add scroll-triggered animations using Intersection Observer API
-- [ ] Implement a working newsletter form backend (e.g., Formspree)
-- [ ] Add a light/dark mode toggle
-- [ ] Build an interactive pricing toggle (Monthly / Annual)
-- [ ] Optimize images with WebP format
-- [ ] Deploy to Vercel or GitHub Pages
 
----
-
-## 👤 Author
+ 👤 Author
 
 **Aryan** — Frontend Development Intern  
 Project built as part of internship training in UI/UX and frontend web development.
